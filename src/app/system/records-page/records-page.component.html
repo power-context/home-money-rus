@@ -1,0 +1,29 @@
+<div class="title-block">
+  <h3 class="title">
+    Страница записей <span class="sparkline bar"></span>
+  </h3>
+</div>
+<section class="section" *ngIf="!isLoaded">
+  <div class="text-center">
+      <curat-loader></curat-loader>
+  </div>
+</section>
+
+<section class="section" *ngIf="isLoaded">
+  <div class="row">
+    <div class="col-md-6">
+      <curat-add-event [categories]="categories"></curat-add-event>
+    </div>
+    <div class="col-md-6">
+      <curat-add-category 
+      (onCategoryAdd)="newCategoryAdded($event)"
+      ></curat-add-category>
+    </div>
+    <div class="col-md-6">
+      <curat-edit-category 
+      [categories]="categories"
+      (onCategoryEdit)="categoryWasEdited($event)"
+      ></curat-edit-category>
+    </div>
+  </div>
+</section>

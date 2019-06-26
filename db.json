@@ -1,0 +1,132 @@
+{
+  "fakeAPI": [
+    {
+      "id": 1,
+      "pairs": "getFakeData",
+      "RUBUSD": "0.01544",
+      "USDRUB": "64.7231",
+      "EURRUB": "73.4775",
+      "RUBEUR": "0.01361"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    },
+    {
+      "email": "test@test",
+      "password": "testtest",
+      "name": "test",
+      "id": 2
+    },
+    {
+      "email": "test2@mail",
+      "password": "1111111",
+      "name": "test2",
+      "id": 3
+    }
+  ],
+  "bill": {
+    "value": 100500,
+    "currency": "RUB"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 2000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Машина",
+      "capacity": 7000
+    },
+    {
+      "name": "ОсновнойТест",
+      "capacity": 1000,
+      "id": 5
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.06.2017 19:49:02",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.06.2017 19:49:02",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.06.2017 14:00:48",
+      "id": 3,
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.06.2017 14:00:58",
+      "id": 4,
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.06.2017 14:01:58",
+      "id": 5,
+      "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "outcome",
+      "amount": 800,
+      "category": 5,
+      "date": "15.06.2019 14:06:55",
+      "description": "q",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 200,
+      "category": 5,
+      "date": "15.06.2019 14:06:38",
+      "description": "q",
+      "id": 7
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": 1,
+      "date": "18.06.2019 21:06:80",
+      "description": "we",
+      "id": 8
+    },
+    {
+      "type": "income",
+      "amount": 500,
+      "category": 1,
+      "date": "18.06.2019 21:06:92",
+      "description": " wee",
+      "id": 9
+    }
+  ]
+}
