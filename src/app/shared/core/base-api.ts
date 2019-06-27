@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 
 export class BaseApi{
 //    private baseUrl = 'http://localhost:3000/';
-    private baseUrl = 'http://195.161.62.85:3000/';
+    private baseUrl = 'http://217.107.34.77:3000/';
     constructor(public http : HttpClient){}
 
     private getUrl(url : string = '') : string{
